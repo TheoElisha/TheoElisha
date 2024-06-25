@@ -1,0 +1,75 @@
+header{
+  background-color: black;
+ color: white;
+ display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 23;
+  flex-shrink: 0;
+  
+}
+.xx-newsLogo{
+  display: flex;
+  align-items: center;
+  width: 140px;
+  
+  height: 50%;
+}
+.center-header, .left-header{
+  flex: 1;
+  
+  height: 50%;
+ 
+  display: flex;
+  align-items: center;
+}
+.forYou{
+margin-left: 100px;
+
+}
+.Following{
+  margin-left: 300px;
+}
+.search{
+  display: flex;
+  height: 38px;
+  border-radius: 18px;
+  border: none;
+  color: white;
+  margin-left: 130px;
+  width: 337px;
+  position: relative;
+  background-color: rgb(61, 59, 59);
+  padding-top: 6px;
+  flex-shrink: 0px;
+ 
+}
+
+.search input{
+  height: 30px;
+  border-radius: 15px;
+  width: 300px;
+  margin-left: 30px;
+  background-color: rgb(61, 59, 59);
+  border: none;
+  outline: none;
+  color: white;
+  flex: none;
+ 
+}
+.search text{
+  border: none;
+}
+.search-icon{
+  height: 20px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: none;
+  color: blue;
+}

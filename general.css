@@ -1,0 +1,177 @@
+body{
+  padding-top: 80px;
+  padding-left: 50px;
+}
+main{
+  display: flex;
+ flex-direction: row;
+  background-color: rgba(20, 20, 20, 0.61);
+  height: 80%;
+  margin-left: 130px;
+  padding: 20px;
+
+}
+.leftOfMain{
+  flex: 1.7;
+  border: solid 1px black;
+  height: 80%;
+  margin-right: 25px;
+  
+}
+
+
+.profile{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+ .profile img{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  
+}
+.Add-post{
+  margin-left: 1px;
+}
+.profile b{
+  margin-left: 20px;
+  color: white;
+}
+.Add-post .fa-photo-film{
+  background-color: rgba(42, 42, 206, 0.856);
+  
+
+}
+.Add-post button{
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color:rgb(14, 116, 231);
+  color: white;
+  opacity: 1px;
+  float: right;
+  margin-right: 10px;
+}
+.show-numbersOfPost{
+  margin-top: 60px;
+  text-align: center;
+  padding-top: 25px;
+  border-top: solid 1px black;
+  height: 30px;
+  border-bottom: solid 1px black;
+  margin-bottom: 10px;
+ 
+}
+.subscribe-premium {
+  padding: 8px;
+  border-bottom: solid 1px black;
+  padding: 15px;
+}
+.subscribe-premium h2{
+  color: white;
+  
+}
+.subscribe-premium h2, p{
+  margin-left: 15px;
+}
+.subscribe-premium button{
+  height: 36px;
+  width: 190px;
+  border-radius: 18px;
+  margin-left: 15px;
+ border: none;
+}
+.individual-post{
+  padding: 10px;
+  
+  border-bottom: solid 1px black;
+}
+.profile-picture img{
+  height: 50px;
+ 
+  border-radius: 25px;
+}
+.post-picture img{
+ width: 600px;
+ height: 600px;
+ object-fit: cover;
+ padding-left: 35px;
+}
+
+.rightOfMain{
+  flex: 1;
+  
+
+}
+.right-box1{
+  color: rgb(235, 224, 224);
+  padding: 15px;
+  border-radius: 10px;
+  border: solid 1px black;
+  
+}
+
+.right-box1 h2{
+  color: white;
+  font-size: 20px;
+}
+.right-box1 .right-button{
+  background-color: rgb(14, 116, 231);
+  height: 36px;
+  width: 190px;
+  border-radius: 18px;
+  margin-left: 15px;
+ border: none;
+ color: white;
+}
+.Trends{
+  color: rgb(235, 224, 224);
+  padding: 15px;
+  border-radius: 10px;
+  border: solid 1px black;
+  margin-top: 15px;
+  height: 1692px;
+}
+.Trends div b{
+  color: rgb(44, 44, 44);
+}
+.Trends div{
+  padding: 15px;
+}
+.more-btn{
+  background-color: white;
+  float: right;
+}
+.more-dot{
+  margin-left: 21px;
+  margin-right: 20px;
+}
+
+/*css example*/
+span {
+ float: right;
+  font-size: xx-large;
+}
+
+/*Mobile*/
+@media(max-width: 750px){
+  body{
+    width: fit-content;
+    padding-top: 110px;
+    margin: 10px;
+    font-size: 16px;
+    object-fit: cover;
+  }
+  nav{
+    position: fixed;
+    top: 50px;
+    right: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+  }
+}

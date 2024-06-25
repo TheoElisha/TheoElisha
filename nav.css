@@ -1,0 +1,73 @@
+nav{
+ 
+  background-color: black;
+  color: white;
+  position: fixed;
+  border: 1px solid gray;
+  left: 0;
+  bottom: 0;
+  height: 85%;
+  width: 180px;
+  margin-right: 29px;
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  
+}
+nav div p{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 10;
+  width: 50px;
+}
+nav div i{
+width: 100%;
+text-align: justify;
+color: gold;
+}
+
+.nav-button {
+  background-color: rgb(14, 116, 231);
+  height: 30px;
+  width: 120px;
+  border-radius: 15px;
+  
+ border: none;
+ color: white;
+}
+.myProfile{
+  padding: 8px;
+  text-align: center;
+ 
+ 
+}
+.myProfile p{
+  font-size: small;
+}
+.my-profile{
+  width: 30px;
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
+  border-radius: 15px;
+  background-color: gray;
+  
+}
+.myProfile td{
+  margin: 20px;
+}
+
+.Message{
+  height: 35px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 250px;
+  text-align: center;
+  padding-top: 10px;
+}
